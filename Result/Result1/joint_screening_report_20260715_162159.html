@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>AI Clinical Screening Report</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 32px;
+    color: #1f2937;
+    background: #f8fbfe;
+}
+.container {
+    max-width: 1000px;
+    margin: auto;
+    background: white;
+    border-radius: 18px;
+    padding: 28px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+.header {
+    background: #0b3a63;
+    color: white;
+    padding: 22px;
+    border-radius: 16px;
+    margin-bottom: 24px;
+}
+.brand {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+}
+.badge {
+    display: inline-block;
+    background: #e8f3ff;
+    color: #0b3a63;
+    padding: 8px 12px;
+    border-radius: 999px;
+    font-weight: bold;
+    font-size: 12px;
+}
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 14px;
+    margin-bottom: 24px;
+}
+.card {
+    background: #f8fbfe;
+    border: 1px solid #d7e3f0;
+    border-radius: 14px;
+    padding: 16px;
+}
+.card h3 {
+    margin: 0 0 8px 0;
+    font-size: 13px;
+    color: #64748b;
+}
+.card p {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 12px;
+    margin-bottom: 24px;
+}
+th, td {
+    border: 1px solid #dbe4ee;
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background: #eef5fb;
+}
+.section-title {
+    font-size: 20px;
+    color: #123b5d;
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+.disclaimer {
+    background: #fff7ed;
+    color: #7c2d12;
+    border: 1px solid #f6d7b0;
+    border-radius: 12px;
+    padding: 16px;
+}
+</style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <div class="brand">
+            <div>
+                <div class="badge">CLINICAL AI SUPPORT</div>
+                <h1>AI Joint Disease Screening Report</h1>
+                <p>Professional questionnaire-based clinical decision support</p>
+            </div>
+            <div></div>
+        </div>
+    </div>
+
+    <div class="cards">
+        <div class="card"><h3>Prediction</h3><p style="color:#0F4C81;">RA</p></div>
+        <div class="card"><h3>Confidence</h3><p style="color:#0E7490;">99.1%</p></div>
+        <div class="card"><h3>Symptom Score</h3><p style="color:#9333EA;">20</p></div>
+        <div class="card"><h3>Risk Level</h3><p style="color:#DC2626;">High</p></div>
+    </div>
+
+    <div class="section-title">Patient Information</div>
+    <table>
+        <tr><th>Field</th><th>Value</th></tr>
+        <tr><td>Date</td><td>2026-07-15 16:21:43</td></tr>
+        <tr><td>Patient Name</td><td>Patient 2</td></tr>
+        <tr><td>Patient ID</td><td>2222</td></tr>
+        <tr><td>Age</td><td>65</td></tr>
+        <tr><td>Gender</td><td>Male</td></tr>
+        <tr><td>Clinic / Department</td><td>Diagnostic clinic</td></tr>
+    </table>
+
+    <div class="section-title">Probability Distribution</div>
+    <table>
+        <tr><th>Class</th><th>Probability</th></tr>
+        <tr><td>CONTROL</td><td>0.00%</td></tr><tr><td>OA</td><td>0.07%</td></tr><tr><td>RA</td><td>99.12%</td></tr><tr><td>RA + OA</td><td>0.81%</td></tr>
+    </table>
+
+    <div class="section-title">Questionnaire Responses</div>
+    <table>
+        <tr><th>#</th><th>Feature</th><th>Answer</th></tr>
+        <tr><td>01</td><td>Joint Symptoms</td><td>Yes</td></tr><tr><td>02</td><td>Joint pain</td><td>No</td></tr><tr><td>03</td><td>Impact of Activity</td><td>Yes</td></tr><tr><td>04</td><td>Morning Stiffness</td><td>Yes</td></tr><tr><td>05</td><td>Joint Functionality</td><td>Yes</td></tr><tr><td>06</td><td>Functional Limitations</td><td>Yes</td></tr><tr><td>07</td><td>Swelling and Inflammation</td><td>Yes</td></tr><tr><td>08</td><td>Perceptible Changes in Joints</td><td>Yes</td></tr><tr><td>09</td><td>History and Progression of Symptoms</td><td>Yes</td></tr><tr><td>10</td><td>Symptom Fluctuation</td><td>Yes</td></tr><tr><td>11</td><td>Family History</td><td>Yes</td></tr><tr><td>12</td><td>Body part affected</td><td>No</td></tr>
+    </table>
+
+    <div class="section-title">Commercial Value for Clinic</div>
+    <p>Faster triage, more structured documentation, professional reporting, and better follow-up comparison.</p>
+
+    <div class="disclaimer">
+        <strong>Medical Disclaimer:</strong> This software is an AI-assisted screening tool and does not provide a final diagnosis.
+    </div>
+</div>
+</body>
+</html>

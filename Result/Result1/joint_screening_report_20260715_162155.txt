@@ -1,0 +1,53 @@
+AI CLINICAL SCREENING REPORT
+==============================================================================
+Date: 2026-07-15 16:21:43
+Patient Name: Patient 2
+Patient ID: 2222
+Age: 65
+Gender: Male
+Clinic / Department: Diagnostic clinic
+
+CLINICAL SUMMARY
+------------------------------------------------------------------------------
+Predicted Class: RA
+Model Confidence: 99.12%
+Symptom Score: 20 / 24
+Risk Level: High
+
+PROBABILITY DISTRIBUTION
+------------------------------------------------------------------------------
+CONTROL: 0.00%
+OA: 0.07%
+RA: 99.12%
+RA + OA: 0.81%
+
+QUESTIONNAIRE RESPONSES
+------------------------------------------------------------------------------
+01. Joint Symptoms: Yes (2)
+02. Joint pain: No (0)
+03. Impact of Activity: Yes (2)
+04. Morning Stiffness: Yes (2)
+05. Joint Functionality: Yes (2)
+06. Functional Limitations: Yes (2)
+07. Swelling and Inflammation: Yes (2)
+08. Perceptible Changes in Joints: Yes (2)
+09. History and Progression of Symptoms: Yes (2)
+10. Symptom Fluctuation: Yes (2)
+11. Family History: Yes (2)
+12. Body part affected: No (0)
+
+AI INTERPRETATION
+------------------------------------------------------------------------------
+This result is intended to support early screening workflow, triage, and structured intake.
+It should be interpreted with history, examination, imaging, laboratory findings, and physician judgment.
+
+COMMERCIAL VALUE FOR CLINIC
+------------------------------------------------------------------------------
+1. Faster triage and more organized intake workflow.
+2. Better documentation consistency.
+3. More professional patient-facing reporting.
+4. Better support for follow-up comparison and service quality improvement.
+
+MEDICAL DISCLAIMER
+------------------------------------------------------------------------------
+This software is an AI-assisted screening tool and does not provide a final diagnosis.
