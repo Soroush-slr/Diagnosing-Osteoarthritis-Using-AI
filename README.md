@@ -8,6 +8,10 @@ This project proposes an AI-enabled screening system that integrates:
 - **Probability-level fusion using a Joint Probability Function**
 - **Multi-class diagnosis for `CONTROL`, `OA`, `RA`, and `RA + OA`**
 
+## Application Overview
+
+This application is an AI-powered joint disease screening and monitoring system designed for both clinical and patient use. In clinics, it can be used to record patient information, analyze questionnaire data, and track disease progression over time. For patients, it provides a self-assessment interface that evaluates symptoms and predicts disease status using machine learning models. The system generates structured reports in formats such as PDF, Excel, TXT, and HTML, making it suitable for documentation, follow-up, and decision support.
+
 ## Research Scope
 
 This repository documents the **questionnaire analysis phase** of the project, which forms one branch of a larger multimodal diagnostic pipeline.  
